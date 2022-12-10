@@ -123,7 +123,7 @@ class RecipeView extends View {
     return `
   <li class="recipe__ingredient">
   <svg class="recipe__icon">
-    <use href="src/img/icons.svg#icon-check"></use>
+    <use href="${icons}#icon-check"></use>
   </svg>
   <div class="recipe__quantity">${
     ing.quantity ? fraction(ing.quantity).toString() : ''
